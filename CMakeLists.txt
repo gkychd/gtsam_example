@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 2.8)
 enable_testing()
 project(gtsamexamples CXX C)
 
+set(CMAKE_BUILD_TYPE "Debug")
+
 find_package(GTSAM REQUIRED)
 include_directories(${GTSAM_INCLUDE_DIR})
 
